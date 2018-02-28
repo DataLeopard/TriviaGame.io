@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <title>Trivia Game</title>
+</head>
+<body>
+  <div class="container">
+      <div class="jumbotron jumbotron-fluid">
+           <h1 class="display-4">It's trivia time</h1>
+           <p class="lead">Can you answer the question before the timer runs out</p>
+           <p> Press any key to continue</p>
+           <img class="Question" src="./assets/" alt="triviaIcon">
+          </div>
+  <div class="stats">
+    <h3 id="what is your guess"</h3>
+    <br>
+  </div>
+          <div class="row">
+            <div class="col-sm">
+              trivia1: <span id="trivia1"></span>
+            </div>
+            <div class="col-sm">
+              trivia2: <span id="trivia2"></span>
+            </div>
+            <div class="col-sm">
+              Wins: <span id="wins"></span>
+            </div>
+            <div class="col-sm">
+              Losses: <span id="losses"></span>
+            </div>
+          </div>
+  </div>
+<!---Javascript below here-->
+<script src="./assets/triviaGame.js"></script>
+</body>
+</html> 
